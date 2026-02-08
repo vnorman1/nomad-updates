@@ -37,10 +37,12 @@
                     "max_tokens": 8192,
                     "max_output": 8192,
                     "context_window": 1048576,
-                    "supports_streaming": true,
+                    "supports_streaming": false,
                     "supports_vision": false,
-                    "supports_code": true,
-                    "pricing_tier": "free"
+                    "supports_code": false,
+                    "pricing_tier": "free",
+                    "sunset_date": "2026-06-17",
+                    "replacement": "gemini-3-flash-preview"
                 },
                 {
                     "id": "gemini-2.5-pro",
@@ -53,10 +55,29 @@
                     "max_tokens": -1,
                     "max_output": -1,
                     "context_window": 1048576,
-                    "supports_streaming": true,
+                    "supports_streaming": false,
                     "supports_vision": false,
-                    "supports_code": true,
-                    "pricing_tier": "free"
+                    "supports_code": false,
+                    "pricing_tier": "free",
+                    "sunset_date": "2026-06-17",
+                    "replacement": "gemini-3-pro-preview"
+                },
+                {
+                    "id": "gemini-3-pro-preview",
+                    "label": "Gemin 3 PRO Preview",
+                    "name": "Gemin 3 PRO Preview",
+                    "description": "",
+                    "status": "preview",
+                    "speed": "fast",
+                    "quality": "good",
+                    "max_tokens": 0,
+                    "max_output": -1,
+                    "context_window": 1000000,
+                    "supports_streaming": false,
+                    "supports_vision": false,
+                    "supports_code": false,
+                    "pricing_tier": "free",
+                    "replacement": ""
                 }
             ]
         }
