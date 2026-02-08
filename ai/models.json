@@ -1,103 +1,72 @@
 {
-  "version": "1.0.0",
-  "updated_at": "2026-02-08T00:00:00Z",
-  "default_model": "gemini-3-flash-preview",
-  "providers": [
-    {
-      "id": "gemini",
-      "name": "Google Gemini",
-      "icon": "sparkles",
-      "api_base": "https://generativelanguage.googleapis.com/v1beta",
-      "key_url": "https://makersuite.google.com/app/apikey",
-      "models": [
+    "version": "1.0.0",
+    "updated_at": "2026-02-08T00:00:00Z",
+    "default_model": "gemini-3-flash-preview",
+    "providers": [
         {
-          "id": "gemini-3-flash-preview",
-          "label": "Gemini 3 Flash (Preview)",
-          "description": "Leggyorsabb és legújabb modell, kiváló minőség",
-          "status": "preview",
-          "speed": "fast",
-          "quality": "excellent",
-          "max_tokens": 32768,
-          "context_window": 1048576,
-          "supports_streaming": true,
-          "pricing_tier": "free"
-        },
-        {
-          "id": "gemini-2.5-flash",
-          "label": "Gemini 2.5 Flash",
-          "description": "Gyors és megbízható, jó általános használatra",
-          "status": "stable",
-          "speed": "fast",
-          "quality": "good",
-          "max_tokens": 8192,
-          "context_window": 1048576,
-          "supports_streaming": true,
-          "pricing_tier": "free"
-        },
-        {
-          "id": "gemini-2.5-pro",
-          "label": "Gemini 2.5 Pro",
-          "description": "Lassabb de kiváló minőségű válaszok",
-          "status": "stable",
-          "speed": "slow",
-          "quality": "excellent",
-          "max_tokens": 8192,
-          "context_window": 1048576,
-          "supports_streaming": true,
-          "pricing_tier": "paid"
-        },
-        {
-          "id": "gemini-2.0-flash",
-          "label": "Gemini 2.0 Flash",
-          "description": "Korábbi generáció, hamarosan elavul",
-          "status": "deprecated",
-          "deprecated_at": "2026-01-15",
-          "sunset_date": "2026-06-01",
-          "replacement": "gemini-2.5-flash",
-          "speed": "fast",
-          "quality": "good",
-          "max_tokens": 8192,
-          "context_window": 1048576,
-          "supports_streaming": true,
-          "pricing_tier": "free"
-        },
-        {
-          "id": "gemini-1.5-pro",
-          "label": "Gemini 1.5 Pro",
-          "description": "Elavult modell, használd helyette a 2.5-öt",
-          "status": "deprecated",
-          "deprecated_at": "2025-06-01",
-          "sunset_date": "2026-03-01",
-          "replacement": "gemini-2.5-pro",
-          "speed": "slow",
-          "quality": "good",
-          "max_tokens": 8192,
-          "context_window": 2097152,
-          "supports_streaming": true,
-          "pricing_tier": "paid"
-        },
-        {
-          "id": "gemini-1.5-flash",
-          "label": "Gemini 1.5 Flash",
-          "description": "Elavult modell, használd helyette a 2.5-öt",
-          "status": "deprecated",
-          "deprecated_at": "2025-06-01",
-          "sunset_date": "2026-03-01",
-          "replacement": "gemini-2.5-flash",
-          "speed": "fast",
-          "quality": "fair",
-          "max_tokens": 8192,
-          "context_window": 1048576,
-          "supports_streaming": true,
-          "pricing_tier": "free"
+            "id": "gemini",
+            "name": "Google Gemini",
+            "icon": "sparkles",
+            "api_base": "https://generativelanguage.googleapis.com/v1beta",
+            "key_url": "https://makersuite.google.com/app/apikey",
+            "models": [
+                {
+                    "id": "gemini-3-flash-preview",
+                    "label": "Gemini 3 Flash (Preview)",
+                    "name": "Gemini 3 Flash (Preview)",
+                    "description": "Leggyorsabb és legújabb modell, kiváló minőség",
+                    "status": "preview",
+                    "speed": "fast",
+                    "quality": "good",
+                    "max_tokens": 32768,
+                    "max_output": 32768,
+                    "context_window": 1048576,
+                    "supports_streaming": true,
+                    "supports_vision": false,
+                    "supports_code": true,
+                    "pricing_tier": "free"
+                },
+                {
+                    "id": "gemini-2.5-flash",
+                    "label": "Gemini 2.5 Flash",
+                    "name": "Gemini 2.5 Flash",
+                    "description": "Gyors és megbízható, jó általános használatra",
+                    "status": "stable",
+                    "speed": "fast",
+                    "quality": "good",
+                    "max_tokens": 8192,
+                    "max_output": 8192,
+                    "context_window": 1048576,
+                    "supports_streaming": true,
+                    "supports_vision": false,
+                    "supports_code": true,
+                    "pricing_tier": "free"
+                },
+                {
+                    "id": "gemini-2.5-pro",
+                    "label": "Gemini 2.5 Pro",
+                    "name": "Gemini 2.5 Pro",
+                    "description": "Lassabb de kiváló minőségű válaszok",
+                    "status": "stable",
+                    "speed": "fast",
+                    "quality": "good",
+                    "max_tokens": -1,
+                    "max_output": -1,
+                    "context_window": 1048576,
+                    "supports_streaming": true,
+                    "supports_vision": false,
+                    "supports_code": true,
+                    "pricing_tier": "free"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "status_descriptions": {
-    "stable": "Teljesen támogatott, éles használatra ajánlott",
-    "preview": "Előzetes verzió, kiváló de változhat",
-    "deprecated": "Elavult, hamarosan megszűnik - váltás ajánlott",
-    "sunset": "Megszűnt, nem használható többé"
-  }
+    ],
+    "status_descriptions": {
+        "stable": "Teljesen támogatott, éles használatra ajánlott",
+        "preview": "Előzetes verzió, kiváló de változhat",
+        "deprecated": "Elavult, hamarosan megszűnik - váltás ajánlott",
+        "sunset": "Megszűnt, nem használható többé"
+    },
+    "last_updated": "2026-02-08",
+    "schema_version": "1.0"
 }
