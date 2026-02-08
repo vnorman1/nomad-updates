@@ -2,7 +2,11 @@
   "project": "nomad-cms",
   "latest_version": "2.4.0",
   "updated_at": "2026-02-08T00:00:00Z",
+  "commit_hash": "",
+  "commit_short": "",
   "cdn_base": "https://cdn.jsdelivr.net/gh/vnorman1/nomad-updates@main",
+  "cdn_raw_fallback": "https://raw.githubusercontent.com/vnorman1/nomad-updates/main",
+  "cdn_purge_base": "https://purge.jsdelivr.net/gh/vnorman1/nomad-updates@main",
   "resources": {
     "ai_models": "ai/models.json",
     "changelog_index": "changelog/index.json",
