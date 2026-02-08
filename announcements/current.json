@@ -1,0 +1,16 @@
+{
+  "active": true,
+  "announcements": [
+    {
+      "id": "gemini-2.0-sunset",
+      "type": "warning",
+      "title": "Gemini 2.0 Flash megszűnés",
+      "message": "A gemini-2.0-flash modell 2026. június 1-jén megszűnik. Kérjük frissíts a gemini-2.5-flash vagy gemini-3-flash-preview modellre.",
+      "created_at": "2026-02-01T00:00:00Z",
+      "expires_at": "2026-06-01T00:00:00Z",
+      "dismissible": true,
+      "action_url": null,
+      "action_label": null
+    }
+  ]
+}
