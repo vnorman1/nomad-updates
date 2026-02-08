@@ -1,20 +1,20 @@
 {
-  "project": "nomad-cms",
-  "latest_version": "2.4.0",
-  "updated_at": "2026-02-08T00:00:00Z",
-  "commit_hash": "",
-  "commit_short": "",
-  "cdn_base": "https://cdn.jsdelivr.net/gh/vnorman1/nomad-updates@main",
-  "cdn_raw_fallback": "https://raw.githubusercontent.com/vnorman1/nomad-updates/main",
-  "cdn_purge_base": "https://purge.jsdelivr.net/gh/vnorman1/nomad-updates@main",
-  "resources": {
-    "ai_models": "ai/models.json",
-    "changelog_index": "changelog/index.json",
-    "announcements": "announcements/current.json"
-  },
-  "cache_ttl": {
-    "ai_models": 86400,
-    "changelog_index": 3600,
-    "announcements": 0
-  }
+    "project": "nomad-cms",
+    "latest_version": "2.4.0",
+    "updated_at": "2026-02-08T18:02:17+00:00",
+    "commit_hash": "be2b6c6f5a5f72683bca9f6dee4339c54a6693f6",
+    "commit_short": "be2b6c6",
+    "cdn_base": "https://cdn.jsdelivr.net/gh/vnorman1/nomad-updates@main",
+    "cdn_raw_fallback": "https://raw.githubusercontent.com/vnorman1/nomad-updates/main",
+    "cdn_purge_base": "https://purge.jsdelivr.net/gh/vnorman1/nomad-updates@main",
+    "resources": {
+        "ai_models": "ai/models.json",
+        "changelog_index": "changelog/index.json",
+        "announcements": "announcements/current.json"
+    },
+    "cache_ttl": {
+        "ai_models": 86400,
+        "changelog_index": 3600,
+        "announcements": 0
+    }
 }

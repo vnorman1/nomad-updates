@@ -1,18 +1,28 @@
 {
-  "latest_version": "2.4.0",
-  "updated_at": "2026-02-08T00:00:00Z",
-  "entries": [
-    {
-      "version": "2.4.0",
-      "date": "2026-02-08",
-      "title": "AI Model Registry & Frissítési Rendszer",
-      "file": "2026-02-08_v2.4.0.md",
-      "type": "feature",
-      "highlights": [
-        "Dinamikus AI modell kezelés",
-        "Automatikus frissítési rendszer",
-        "Changelog megjelenítés"
-      ]
-    }
-  ]
+    "latest_version": "2.4.0",
+    "updated_at": "2026-02-08T00:00:00Z",
+    "entries": [
+        {
+            "version": "2.5.0",
+            "date": "2026-02-08",
+            "title": "test changelog",
+            "file": "2026-02-08_v2.5.0.md",
+            "type": "patch",
+            "highlights": [
+                "This is just a test"
+            ]
+        },
+        {
+            "version": "2.4.0",
+            "date": "2026-02-08",
+            "title": "AI Model Registry & Frissítési Rendszer",
+            "file": "2026-02-08_v2.4.0.md",
+            "type": "feature",
+            "highlights": [
+                "Dinamikus AI modell kezelés",
+                "Automatikus frissítési rendszer",
+                "Changelog megjelenítés"
+            ]
+        }
+    ]
 }
