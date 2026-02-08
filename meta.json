@@ -1,9 +1,9 @@
 {
     "project": "nomad-cms",
     "latest_version": "2.4.0",
-    "updated_at": "2026-02-08T18:02:17+00:00",
-    "commit_hash": "be2b6c6f5a5f72683bca9f6dee4339c54a6693f6",
-    "commit_short": "be2b6c6",
+    "updated_at": "2026-02-08T18:30:35+00:00",
+    "commit_hash": "6c26ae1977e5eb34b1ca3bc5715d470925982c7f",
+    "commit_short": "6c26ae1",
     "cdn_base": "https://cdn.jsdelivr.net/gh/vnorman1/nomad-updates@main",
     "cdn_raw_fallback": "https://raw.githubusercontent.com/vnorman1/nomad-updates/main",
     "cdn_purge_base": "https://purge.jsdelivr.net/gh/vnorman1/nomad-updates@main",

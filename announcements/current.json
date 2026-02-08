@@ -1,16 +1,16 @@
 {
-  "active": true,
-  "announcements": [
-    {
-      "id": "gemini-2.0-sunset",
-      "type": "warning",
-      "title": "Gemini 2.0 Flash megszűnés",
-      "message": "A gemini-2.0-flash modell 2026. június 1-jén megszűnik. Kérjük frissíts a gemini-2.5-flash vagy gemini-3-flash-preview modellre.",
-      "created_at": "2026-02-01T00:00:00Z",
-      "expires_at": "2026-06-01T00:00:00Z",
-      "dismissible": true,
-      "action_url": null,
-      "action_label": null
-    }
-  ]
+    "active": true,
+    "announcements": [
+        {
+            "id": "gemini-2.0-sunset",
+            "type": "info",
+            "title": "Gemini 2.0 Flash megszűnés",
+            "message": "A gemini-2.0-flash modell 2026. március 31.-én megszűnik. Ezért már nem elérhető, helyette használja a 2.5 vagy 3 preview modelleket",
+            "created_at": "2026-02-08T18:29:23+00:00",
+            "expires_at": "2026-03-31T00:00",
+            "dismissible": true,
+            "action_url": "https://ai.google.dev/gemini-api/docs/deprecations"
+        }
+    ],
+    "last_updated": "2026-02-08T18:29:23+00:00"
 }
